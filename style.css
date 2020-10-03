@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+        to right,
+        rgba(39, 174, 96, .2),
+        rgba(33, 146, 81, .2)
+     ), url('./lake.jpg');
+    background-size: cover;
+}
+
+/* rgb(39, 174, 96),rgb(33, 146, 81) */
+.container {
+    background-color: #fff;
+    width: 50%;
+    margin: 15% auto;
+    padding-bottom: 3%;
+    background: linear-gradient(to right, rgba(41, 128, 185, .3), rgba(50, 147, 210, .3));
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-family: helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    padding: 20px;
+    margin-left: 25%;
+    color: #e7f3fd;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, .5);
+}
+
+#userinput {
+    margin: 2% 0 5% 2% ;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(255,255,255, .8);
+    /* border-bottom: 2px solid transparent; */
+    color: #3f3f3f;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+
+#enter, li>button {
+    font-size: 1.2em;
+    padding: 6px 20px;
+    cursor: pointer;
+    background-color: rgba(41, 128, 185, .3);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    margin-left: 2%;
+    transition: all .3s;
+    outline: none;
+}
+
+#enter:hover, li>button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+}
+
+ul > li {
+    cursor: default;
+    list-style: none;
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+}
+
+li > button {
+    font-size: .8em;
+    display: inline-block;
+}
+
+/* Code injected in JS */
+.coolTitle {
+    font-family: helvetica, sans-serif;
+    font-size: 2em;
+    color: palevioletred;
+    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.21);
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgba(255, 0, 0, .8);
+}
+
